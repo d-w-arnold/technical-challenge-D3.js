@@ -1,0 +1,13 @@
+Data Visualisation – CV information
+ 
+The challenge is to take the traditional way that a CV is presented and think of new, modern ways to visualise the data on it.
+ 
+Traditionally CVs are presented as pure text and the reader has to look at dates, work out overlaps, gaps etc.  This takes some time and effort and could be more quickly understood by using a graphic of some manner.  The same is true for technical skills – showing how skilled someone is various technologies.  At Digital Insight we are pushing hard to move away from text as a way to present information, we believe there are more intuitive and useful ways of presenting information.  We are looking for someone to be able to present data in a graphical manner rather than just text. 
+ 
+The challenge is to take 1 or 2 areas from a CV (like those above) and try to put something together in D3.js that shows these new graphical ways of showing CV information, limited only by your imagination.  We have chosen D3 as not many people have come across it, but it has some very powerful pre-built visualisation libraries.
+ 
+There are 2 things we are looking for with this exercise. 
+How you think about data visualisation and modern ways of presenting information
+Your ability to take a new technology, research it a little and get it working – even in just a rudimentary manner.
+ 
+The main discussion will be around – why did you choose to present the data in the way you did, how was the tech implementation, what you would build / improve on next if you had time and what advantages and disadvantages of various approaches you could have taken.
