@@ -11,3 +11,12 @@ How you think about data visualisation and modern ways of presenting information
 Your ability to take a new technology, research it a little and get it working – even in just a rudimentary manner.
  
 The main discussion will be around – why did you choose to present the data in the way you did, how was the tech implementation, what you would build / improve on next if you had time and what advantages and disadvantages of various approaches you could have taken.
+
+Skills to show off:
+SCSS
+TypeScript
+(?) webpack
+(?) babel
+HTML
+(?) Graph database
+(Not required) Docker
