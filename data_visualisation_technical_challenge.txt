@@ -13,10 +13,11 @@ Your ability to take a new technology, research it a little and get it working â
 The main discussion will be around â€“ why did you choose to present the data in the way you did, how was the tech implementation, what you would build / improve on next if you had time and what advantages and disadvantages of various approaches you could have taken.
 
 Skills to show off:
-SCSS
+React
 TypeScript
+SCSS
+HTML
 (?) webpack
 (?) babel
-HTML
 (?) Graph database
 (Not required) Docker
