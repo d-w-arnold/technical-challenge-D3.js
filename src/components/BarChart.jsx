@@ -8,7 +8,7 @@ class BarChart extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data: this.props.data,
+            data: this.props.data
         };
     }
 
@@ -22,7 +22,7 @@ class BarChart extends Component {
 
     createBarChart() {
         let data = this.state.data;
-        let margin = ({top: 30, right: 0, bottom: 10, left: 30});
+        let margin = ({top: 30, right: 0, bottom: 10, left: 240});
         let barHeight = 25;
         let width = 500;
         let height = Math.ceil((data.length + 0.1) * barHeight) + margin.top + margin.bottom;
@@ -45,6 +45,8 @@ class BarChart extends Component {
         const svg = select(this.refs.myNode)
             .append("svg")
             .attr("viewBox", [0, 0, width, height]);
+
+        // TODO: Add x-axis label saying: 'module result in %'
 
         svg.append("g")
             .attr("fill", "steelblue")
@@ -83,7 +85,7 @@ class BarChart extends Component {
 
     render() {
         return (
-            <svg ref="myNode"/>
+            <div ref="myNode"/>
         );
     }
 }

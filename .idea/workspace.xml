@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/BarChart.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/BarChart.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,5 +77,9 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1595620760602" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595714622053">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595714622053" />
   </component>
 </project>

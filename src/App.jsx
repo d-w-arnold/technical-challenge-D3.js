@@ -4,15 +4,14 @@ import logo from './logo.png';
 import BarChart from './components/BarChart';
 
 let d3js = 'https://d3js.org/';
-let fruit = [
-    {name: "🍊", value: 21},
-    {name: "🍇", value: 13},
-    {name: "🍏", value: 8},
-    {name: "🍌", value: 5},
-    {name: "🍐", value: 3},
-    {name: "🍋", value: 2},
-    {name: "🍎", value: 1},
-    {name: "🍉", value: 1}
+let resultsYear3 = [
+    {name: "Computer Security and Cryptography", value: 92},
+    {name: "Computer Networks and Communication", value: 88},
+    {name: "Programming Language Implementation", value: 88},
+    {name: "Programming Languages: Application and Design", value: 88},
+    {name: "Data Mining and Knowledge Discovery", value: 82},
+    {name: "Research Project", value: 72},
+    {name: "Internet of Things", value: 70}
 ]
 
 class App extends Component {
@@ -32,7 +31,7 @@ class App extends Component {
                 </div>
                 <div className="uni_year_3">
                     <p>A data-driven visualisation of my University of Kent (year 3) results from Uni, as shown on my CV.</p>
-                    <BarChart data={fruit}/>
+                    <BarChart data={resultsYear3}/>
                 </div>
             </div>
         );
