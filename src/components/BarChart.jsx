@@ -21,9 +21,10 @@ class BarChart extends Component {
     }
 
     createBarChart() {
+        // TODO: Add sorting of data by data.value, and put JSON content into random order to test
         let data = this.state.data;
         let margin = ({top: 30, right: 0, bottom: 10, left: 240});
-        let barHeight = 25;
+        let barHeight = 20;
         let width = 500;
         let height = Math.ceil((data.length + 0.1) * barHeight) + margin.top + margin.bottom;
         let x = scaleLinear()

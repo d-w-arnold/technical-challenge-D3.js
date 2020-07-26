@@ -1,6 +1,8 @@
-header {
+@import "./src/scss/variables";
+
+.App-Header {
   text-align: center;
-  margin-bottom: 6%;
+  margin-bottom: $myMargin;
 }
 
 .App-logo {
@@ -9,5 +11,5 @@ header {
 }
 
 .App-link {
-  color: #61dafb;
+  color: $link;
 }

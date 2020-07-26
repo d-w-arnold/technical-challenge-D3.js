@@ -1,6 +1,6 @@
-$myColor: white;
+@import "./src/scss/variables";
 
-div#chart {
+div #chart {
   height: 100%;
   width: 100%;
 }
@@ -30,7 +30,7 @@ circle.blue-dot {
 
 .d3-tip {
   background: green;
-  color: black;
+  color: $myTextColor;
 }
 
 /* Tiny Flex Grid */
@@ -38,22 +38,28 @@ circle.blue-dot {
 [flex] {
   display: flex;
 }
+
 [flex-fill] {
   flex: 1;
 }
+
 [flex-full-center] {
   align-items: center;
   justify-content: center;
 }
+
 [flex-direction=column] {
   flex-direction: column;
 }
+
 [flex-direction=row] {
   flex-direction: row;
 }
+
 [flex-size="40"] {
   flex: 40;
 }
+
 [flex-size="60"] {
   flex: 60;
 }
@@ -73,5 +79,5 @@ g.item {
 }
 
 text.interval-text {
-  fill: black;
+  fill: $myTextColor;
 }

@@ -1,0 +1,273 @@
+{
+  "name": "Comp.",
+  "children": [
+    {
+      "name": "OSs",
+      "children": [
+        {
+          "name": "Mac OS"
+        },
+        {
+          "name": "iOS"
+        },
+        {
+          "name": "Windows 7/10"
+        },
+        {
+          "name": "Linux"
+        }
+      ]
+    },
+    {
+      "name": "Skills",
+      "children": [
+        {
+          "name": "Web Development",
+          "children": [
+            {
+              "name": "Front-End",
+              "children": [
+                {
+                  "name": "JavaScript",
+                  "children": [
+                    {
+                      "name": "TypeScript"
+                    },
+                    {
+                      "name": "React"
+                    },
+                    {
+                      "name": "jQuery"
+                    },
+                    {
+                      "name": "AJAX"
+                    },
+                    {
+                      "name": "NPM"
+                    },
+                    {
+                      "name": "Yarn"
+                    }
+                  ]
+                },
+                {
+                  "name": "HTML"
+                },
+                {
+                  "name": "CSS",
+                  "children": [
+                    {
+                      "name": "SCSS"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Back-End",
+              "children": [
+                {
+                  "name": "PHP"
+                },
+                {
+                  "name": "MySQL"
+                },
+                {
+                  "name": "Node.js"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Programming",
+          "children": [
+            {
+              "name": "Object-Orientated",
+              "children": [
+                {
+                  "name": "Java"
+                },
+                {
+                  "name": "C++"
+                },
+                {
+                  "name": "Python"
+                }
+              ]
+            },
+            {
+              "name": "Imperative & Procedural",
+              "children": [
+                {
+                  "name": "C"
+                },
+                {
+                  "name": "Rust"
+                }
+              ]
+            },
+            {
+              "name": "Functional",
+              "children": [
+                {
+                  "name": "Erlang"
+                }
+              ]
+            },
+            {
+              "name": "Scripting",
+              "children": [
+                {
+                  "name": "Python"
+                },
+                {
+                  "name": "Shell"
+                },
+                {
+                  "name": "R"
+                },
+                {
+                  "name": "AppleScript"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Containerisation",
+          "children": [
+            {
+              "name": "Docker"
+            }
+          ]
+        },
+        {
+          "name": "Command Line",
+          "children": [
+            {
+              "name": "UNIX CLI"
+            },
+            {
+              "name": "Git"
+            }
+          ]
+        },
+        {
+          "name": "Documentation",
+          "children": [
+            {
+              "name": "Markdown"
+            },
+            {
+              "name": "LaTeX"
+            }
+          ]
+        },
+        {
+          "name": "Miscellaneous",
+          "children": [
+            {
+              "name": "JetBrains IDEs"
+            },
+            {
+              "name": "Cryptography"
+            },
+            {
+              "name": "Mathematics"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Projects",
+      "children": [
+        {
+          "name": "Web Development",
+          "children": [
+            {
+              "name": "My First Dockerised React Website"
+            },
+            {
+              "name": "IoT Admin Web App"
+            },
+            {
+              "name": "My First Website"
+            }
+          ]
+        },
+        {
+          "name": "Java",
+          "children": [
+            {
+              "name": "My First OpenAPI"
+            },
+            {
+              "name": "IoT Central Server"
+            },
+            {
+              "name": "Ciphertext Decryption"
+            },
+            {
+              "name": "Git Bisect"
+            },
+            {
+              "name": "CSV to TXT Converter"
+            },
+            {
+              "name": "Computer Networks: Simple Data-Link Protocol"
+            },
+            {
+              "name": "Sudoku Solver"
+            }
+          ]
+        },
+        {
+          "name": "C/C++",
+          "children": [
+            {
+              "name": "IoT BLE & Motion Detection Device"
+            },
+            {
+              "name": "C Test Bench"
+            },
+            {
+              "name": "Gambit Cipher Quiz"
+            }
+          ]
+        },
+        {
+          "name": "Python",
+          "children": [
+            {
+              "name": "Sudoku Solver"
+            },
+            {
+              "name": "Local News Web Crawler"
+            },
+            {
+              "name": "Gambit Cipher Quiz"
+            }
+          ]
+        },
+        {
+          "name": "Erlang",
+          "children": [
+            {
+              "name": "Gambit Cipher Quiz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Events",
+      "children": [
+        {
+          "name": "2017 Cisco University Challenge"
+        }
+      ]
+    }
+  ]
+}
