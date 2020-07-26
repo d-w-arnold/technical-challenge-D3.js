@@ -1,0 +1,77 @@
+$myColor: white;
+
+div#chart {
+  height: 100%;
+  width: 100%;
+}
+
+*, *:after, *:before {
+  box-sizing: border-box;
+}
+
+#chart line {
+  stroke: $myColor;
+}
+
+#chart line.vertical-marker.now {
+  stroke: #c00;
+}
+
+rect.interval.blue-interval {
+  fill: $myColor;
+  stroke: $myColor;
+}
+
+circle.blue-dot {
+  fill: blue;
+}
+
+/* Override d3tip */
+
+.d3-tip {
+  background: green;
+  color: black;
+}
+
+/* Tiny Flex Grid */
+
+[flex] {
+  display: flex;
+}
+[flex-fill] {
+  flex: 1;
+}
+[flex-full-center] {
+  align-items: center;
+  justify-content: center;
+}
+[flex-direction=column] {
+  flex-direction: column;
+}
+[flex-direction=row] {
+  flex-direction: row;
+}
+[flex-size="40"] {
+  flex: 40;
+}
+[flex-size="60"] {
+  flex: 60;
+}
+
+/* My Custom Styling*/
+
+g.tick {
+  fill: $myColor;
+}
+
+text.group-label {
+  fill: $myColor;
+}
+
+g.item {
+  fill: $myColor
+}
+
+text.interval-text {
+  fill: black;
+}

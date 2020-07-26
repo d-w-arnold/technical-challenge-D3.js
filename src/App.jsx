@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import './App.scss';
+import './scss/App.scss';
 import logo from './logo.png';
 import resultsYear3 from './jsons/resultsYear3.json';
+import Timeline from './components/Timeline';
 import BarChart from './components/BarChart';
 
 let d3js = 'https://d3js.org/';
@@ -19,7 +20,8 @@ class App extends Component {
                     <p>A data-driven visualisation of the Computing section of my CV.</p>
                 </div>
                 <div className="education">
-                    <p>A data-driven visualisation of the Education section of my CV.</p>
+                    <p>A data-driven visualisation of the Education and Experience sections of my CV.</p>
+                    <Timeline/>
                 </div>
                 <div className="uni_year_3">
                     <p>A data-driven visualisation of my final year results from University of Kent, as shown on my CV.</p>
