@@ -3,24 +3,21 @@ import '../scss/Timeline.scss';
 import TimelineChart from 'd3-timeline-chart';
 
 class Timeline extends Component {
-    constructor(props) {
+    constructor(props: any) {
         super(props);
-        this.state = {
-            data: this.props.data
-        };
     }
 
     componentDidMount() {
         this.createTimeline();
     }
 
-    componentDidUpdate(prevProps, prevState, snapshot) {
+    componentDidUpdate(_prevProps: any, _prevState: any, _snapshot: any) {
         this.createTimeline();
     }
 
     createTimeline() {
         const element = this.refs.myNode;
-        // TODO: Move data to separate JSON file
+        // @ts-ignore
         const data = [
             {
                 "label": "University of Kent",
@@ -28,20 +25,20 @@ class Timeline extends Component {
                     {
                         "label": "Year 1 - BSc Computer Science with a Year in Industry",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2016, 9, 26]),
-                        "to": new Date([2017, 6, 15])
+                        "from": "Mon Sep 26 2016 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Thu Jun 15 2017 00:00:00 GMT+0100 (British Summer Time)"
                     },
                     {
                         "label": "Year 2 - BSc Computer Science with a Year in Industry",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2017, 9, 25]),
-                        "to": new Date([2018, 5, 26])
+                        "from": "Mon Sep 25 2017 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Sat May 26 2018 00:00:00 GMT+0100 (British Summer Time)"
                     },
                     {
                         "label": "Final Year - BSc Computer Science with a Year in Industry",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2019, 9, 23]),
-                        "to": new Date([2020, 6, 26])
+                        "from": "Mon Sep 23 2019 00:00:00 GMT+0100 (British Summer Time",
+                        "to": "Fri Jun 26 2020 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
             },
@@ -51,8 +48,8 @@ class Timeline extends Component {
                     {
                         "label": "Mathematics Major",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2015, 1, 10]),
-                        "to": new Date([2015, 10, 19])
+                        "from": "Sat Jan 10 2015 00:00:00 GMT+0000 (Greenwich Mean Time)",
+                        "to": "Mon Oct 19 2015 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
             },
@@ -62,8 +59,8 @@ class Timeline extends Component {
                     {
                         "label": "Certificate of Higher Education",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2012, 6, 15]),
-                        "to": new Date([2014, 7, 15])
+                        "from": "Fri Jun 15 2012 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Tue Jul 15 2014 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
             },
@@ -73,8 +70,8 @@ class Timeline extends Component {
                     {
                         "label": "GCSE (General Certificate of Higher Education)",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2007, 9, 5]),
-                        "to": new Date([2012, 7, 15])
+                        "from": "Wed Sep 05 2007 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Sun Jul 15 2012 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
             },
@@ -84,8 +81,8 @@ class Timeline extends Component {
                     {
                         "label": "Year in Industry - IT Student Placement",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2018, 6, 25]),
-                        "to": new Date([2019, 6, 24])
+                        "from": "Mon Jun 25 2018 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Mon Jun 24 2019 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
             },
@@ -95,17 +92,17 @@ class Timeline extends Component {
                     {
                         "label": "Assistant Engineer",
                         "type": TimelineChart.TYPE.INTERVAL,
-                        "from": new Date([2017, 6, 16]),
-                        "to": new Date([2017, 9, 1])
+                        "from": "Fri Jun 16 2017 00:00:00 GMT+0100 (British Summer Time)",
+                        "to": "Fri Sep 01 2017 00:00:00 GMT+0100 (British Summer Time)"
                     }
                 ]
-            },
+            }
         ];
 
-        // eslint-disable-next-line no-unused-vars
+        // eslint-disable-next-line @typescript-eslint/no-unused-vars
         const timeline = new TimelineChart(element, data, {
             // TODO: Get d3-tip working for timeline
-            tip: function (d) {
+            tip: function (d: { at: any; from: any; to: any; }) {
                 return d.at || `${d.from}<br>${d.to}`;
             },
             height: 300
