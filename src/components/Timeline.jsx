@@ -99,7 +99,7 @@ class Timeline extends Component {
                         "to": new Date([2017, 9, 1])
                     }
                 ]
-            }
+            },
         ];
 
         // eslint-disable-next-line no-unused-vars
