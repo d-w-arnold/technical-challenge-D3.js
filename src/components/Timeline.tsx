@@ -3,6 +3,7 @@ import '../scss/Timeline.scss';
 import TimelineChart from 'd3-timeline-chart';
 
 class Timeline extends Component {
+    // eslint-disable-next-line @typescript-eslint/no-useless-constructor
     constructor(props: any) {
         super(props);
     }
