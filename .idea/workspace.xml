@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Timeline.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timeline.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Timeline.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Timeline.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +20,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1f9AJDgtzIukvr32BApnUPxie3w" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -67,6 +69,13 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/components/BarChart.jsx" />
+        <option value="$PROJECT_DIR$/src/components/TidyTree.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Timeline.jsx" />
+      </list>
+    </option>
   </component>
   <component name="WindowStateProjectService">
     <state x="510" y="299" key="#ESLint" timestamp="1595629494252">
@@ -85,10 +94,10 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="443" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1595791633668" />
-    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1595788475528">
+    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1595804976239">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1595788475528" />
+    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1595804976239" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595714622053">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
