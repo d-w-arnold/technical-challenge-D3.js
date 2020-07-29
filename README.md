@@ -2,7 +2,9 @@
 
 A technical challenge using the <a href="https://d3js.org/" target="_blank">D3.js</a> JavaScript library, to recreate sections of my CV.
 
-My CV can be found in `public/David_W_Arnold-CV.pdf` 
+My CV can be found in `./public/David_W_Arnold-CV.pdf`.
+
+A quick full demo and images of the finished project can be found in `./demo`.
 
 ## Install Dependencies
 In the project directory, run:
