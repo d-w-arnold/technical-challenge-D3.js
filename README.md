@@ -4,7 +4,7 @@ A technical challenge using the <a href="https://d3js.org/" target="_blank">D3.j
 
 My CV can be found in `./public/David_W_Arnold-CV.pdf`.
 
-A quick full demo and images of the finished project can be found in `./demo`.
+A quick full demo and images of the finished project can be found in `./demos`.
 
 ## Install Dependencies
 In the project directory, run:
