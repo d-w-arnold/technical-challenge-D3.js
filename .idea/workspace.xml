@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/technical_test_Digital_Insight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/technical_challenge_D3.js.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,8 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="Errors" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -52,6 +57,7 @@
       <recent name="$PROJECT_DIR$/src" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -65,43 +71,12 @@
       <workItem from="1595619865247" duration="8838000" />
       <workItem from="1595796903383" duration="434000" />
       <workItem from="1595956668869" duration="359000" />
+      <workItem from="1611366709672" duration="28000" />
+      <workItem from="1611366745480" duration="2361000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/components/BarChart.jsx" />
-        <option value="$PROJECT_DIR$/src/components/TidyTree.jsx" />
-        <option value="$PROJECT_DIR$/src/components/Timeline.jsx" />
-      </list>
-    </option>
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="510" y="299" key="#ESLint" timestamp="1595629494252">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="510" y="299" key="#ESLint/0.0.1280.800@0.0.1280.800" timestamp="1595629494252" />
-    <state x="305" y="185" key="EditFileWatcherDialog" timestamp="1595619931355">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="185" key="EditFileWatcherDialog/0.0.1280.800@0.0.1280.800" timestamp="1595619931355" />
-    <state x="149" y="39" key="SettingsEditor" timestamp="1595634532838">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="149" y="39" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1595634532838" />
-    <state x="443" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595791633668">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="443" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1595791633668" />
-    <state x="347" y="155" width="586" height="490" key="find.popup" timestamp="1595804976239">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="347" y="155" width="586" height="490" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1595804976239" />
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1595714622053">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1595714622053" />
+    <option name="version" value="3" />
   </component>
 </project>
