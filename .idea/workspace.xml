@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/technical_test_Digital_Insight.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/technical_challenge_D3.js.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="5c2c784b-4e1e-4e36-840c-5a47ac4156e9" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -72,7 +66,7 @@
       <workItem from="1595796903383" duration="434000" />
       <workItem from="1595956668869" duration="359000" />
       <workItem from="1611366709672" duration="28000" />
-      <workItem from="1611366745480" duration="2361000" />
+      <workItem from="1611366745480" duration="2888000" />
     </task>
     <servers />
   </component>
