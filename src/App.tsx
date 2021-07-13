@@ -16,9 +16,10 @@ class App extends Component {
                 <header className="App-Header">
                     <img src={logo} className="App-logo" alt="logo"/>
                     <h1>David W. Arnold</h1>
-                    <p>Welcome, below are several sections of my <a className="App-link" target="_blank"
-                                                                    href={process.env.PUBLIC_URL + '/David_W_Arnold-CV.pdf'}
-                                                                    rel="noopener noreferrer">CV</a> recreated using
+                    <p>Welcome, below are several sections of my (old Jul 2020) <a className="App-link" target="_blank"
+                                                                                   href={process.env.PUBLIC_URL + '/David_W_Arnold-CV.pdf'}
+                                                                                   rel="noopener noreferrer">CV</a> recreated
+                        using
                         the <a className="App-link" target="_blank" href={d3js}
                                rel="noopener noreferrer">D3.js</a> JavaScript library.</p>
                 </header>
