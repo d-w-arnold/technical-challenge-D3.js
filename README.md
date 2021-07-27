@@ -1,6 +1,6 @@
 # Technical Challenge D3.js
 
-A technical challenge using the <a href="https://d3js.org/" target="_blank">D3.js</a> JavaScript library, to recreate sections of my CV.
+A technical challenge using the <a href="https://d3js.org/" target="_blank">D3.js</a> JavaScript library, to recreate sections of my (old Jul 2020) CV.
 
 My CV can be found in `./public/David_W_Arnold-CV.pdf`.
 
